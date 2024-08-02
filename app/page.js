@@ -87,7 +87,11 @@ export default function Home() {
       flexDirection={'column'}
       alignItems={'center'}
       gap={2}
+      bgcolor={"#ff8181"}
     >
+      <Typography variant={'h1'} color={'#333'} textAlign={'center'}>
+            Pantry
+          </Typography>
       <TextField
               id="outlined-basic"
               label="Search"
@@ -95,6 +99,7 @@ export default function Home() {
               type="search"
               fullWidth
               onChange={(e) => setSearchQuery(e.target.value)}
+
             />
       <Modal
         open={open}
