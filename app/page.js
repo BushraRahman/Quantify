@@ -107,15 +107,14 @@ export default function Home() {
             Add Item
           </Typography>
           <Stack width="100%" direction={'row'} spacing={2}>
-            <TextField
-              id="outlined-basic"
-              label="Item"
-              variant="outlined"
-              fullWidth
-              value={itemName}
-              color="#333"
-              onChange={(e) => setItemName(e.target.value)}
-            />
+          <TextField
+            id="outlined-basic"
+            label="Item"
+            variant="outlined"
+            fullWidth
+            value={itemName}
+            onChange={(e) => setItemName(e.target.value)}
+          />
             <Button
               variant="outlined"
               onClick={() => {
@@ -126,11 +125,11 @@ export default function Home() {
             >
               Add
             </Button>
-          </Stack>
+            </Stack>
         </Box>
       </Modal>
       <Button variant="contained" onClick={handleOpen}>
-        Add New Item {searchQuery}
+        Add New Item
       </Button>
       <Box border={'1px solid #333'}>
         <Box
