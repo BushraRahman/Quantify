@@ -32,7 +32,7 @@ export default function Home() {
     newAttempt()
   }
   const addItem = async(item) =>{
-    const docRef = doc(collection(firestore, "inventory"), item)
+    const docRef = doc(collection(firestore, "inventory"), item.toLowerCase())
     const docSnap = await getDoc(docRef)
     if(docSnap.exists()){
       const {quantity} = docSnap.data()
@@ -118,6 +118,7 @@ export default function Home() {
             variant="outlined"
             fullWidth
             value={itemName}
+            bg-color={"#d16a6a"}
             onChange={(e) => setItemName(e.target.value)}
           />
             <Button
