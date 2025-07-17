@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project lets you keep track of items by adding and removing them to an inventory. The project was deployed using Vercel and can be found [`here`](pantry-navy.vercel.app).
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The project uses Firebase for its database.
 
 ## Getting Started
 
