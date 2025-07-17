@@ -107,7 +107,7 @@ export default function Home() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box>
+        <Box bgcolor={'#ADD8E6'}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Add Item
           </Typography>
